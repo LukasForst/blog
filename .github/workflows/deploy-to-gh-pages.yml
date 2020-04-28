@@ -12,14 +12,12 @@ jobs:
 
       - name: Build
         run: |
-          # install codedoc
-          npm install @codedoc/cli
-          # set correct path
-          alias npm-exec='PATH=$(npm bin):$PATH'
           # install .codedoc dependencies
           (cd .codedoc && npm install)
+          # install codedoc
+          npm install @codedoc/cli
           # build repo
-          npm-exec codedoc build
+          (PATH=$(npm bin):$PATH && codedoc build)
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3

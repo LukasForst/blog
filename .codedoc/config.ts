@@ -14,7 +14,7 @@ export const config = configuration({
   },
   dest: {                                // @see /docs/config/output
     html: 'dist',                           // --> the base folder for HTML files
-    assets: 'dist/assets',                         // --> the base folder for assets
+    assets: 'dist',                         // --> the base folder for assets
     bundle: '.',               // --> where to store codedoc's bundle (relative to `assets`)
     styles: 'styles',               // --> where to store codedoc's styles (relative to `assets`)
     namespace: '',                       // --> project namespace

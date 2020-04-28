@@ -4,7 +4,7 @@ install:
 build:
 	codedoc build
 
-server:
+serve:
 	codedoc serve
 
 clean:

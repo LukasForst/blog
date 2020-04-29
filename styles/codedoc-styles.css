@@ -478,6 +478,24 @@ body.dark code {
   .code-0-0-8 .token.script {
     color: #e0e0e0;
   }
+  .code-0-0-8 .token.placeholder {
+    color: #18ffff;
+  }
+  .code-0-0-8 .token.selector {
+    color: #ffa372;
+  }
+  .code-0-0-8 .token.property {
+    color: #f6d186;
+  }
+  .code-0-0-8 .token.important {
+    color: #be79df;
+  }
+  .code-0-0-8.scss .token.function, .code-0-0-8.css .token.function, .code-0-0-8.sass .token.function {
+    color: #9aceff;
+  }
+  .code-0-0-8 .token.key {
+    color: #f6d186;
+  }
 @media (prefers-color-scheme: dark) {
   body:not(.dark-mode-animate) .code-0-0-8 {
     color: #e0e0e0;
@@ -532,6 +550,24 @@ body.dark code {
   body:not(.dark-mode-animate) .code-0-0-8 .token.script {
     color: #e0e0e0;
   }
+  body:not(.dark-mode-animate) .code-0-0-8 .token.placeholder {
+    color: #18ffff;
+  }
+  body:not(.dark-mode-animate) .code-0-0-8 .token.selector {
+    color: #ffa372;
+  }
+  body:not(.dark-mode-animate) .code-0-0-8 .token.property {
+    color: #f6d186;
+  }
+  body:not(.dark-mode-animate) .code-0-0-8 .token.important {
+    color: #be79df;
+  }
+  body:not(.dark-mode-animate) .code-0-0-8.scss .token.function, body:not(.dark-mode-animate) .code-0-0-8.css .token.function, body:not(.dark-mode-animate) .code-0-0-8.sass .token.function {
+    color: #9aceff;
+  }
+  body:not(.dark-mode-animate) .code-0-0-8 .token.key {
+    color: #f6d186;
+  }
 }
   body.dark .code-0-0-8 {
     color: #e0e0e0;
@@ -585,6 +621,24 @@ body.dark code {
   }
   body.dark .code-0-0-8 .token.script {
     color: #e0e0e0;
+  }
+  body.dark .code-0-0-8 .token.placeholder {
+    color: #18ffff;
+  }
+  body.dark .code-0-0-8 .token.selector {
+    color: #ffa372;
+  }
+  body.dark .code-0-0-8 .token.property {
+    color: #f6d186;
+  }
+  body.dark .code-0-0-8 .token.important {
+    color: #be79df;
+  }
+  body.dark .code-0-0-8.scss .token.function, body.dark .code-0-0-8.css .token.function, body.dark .code-0-0-8.sass .token.function {
+    color: #9aceff;
+  }
+  body.dark .code-0-0-8 .token.key {
+    color: #f6d186;
   }
   .lineCounter-0-0-9 {
     left: 0;

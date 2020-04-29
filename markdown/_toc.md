@@ -2,6 +2,7 @@
 [Markdown Cheat Sheet](/posts/cheat-sheet)
 [Code Features](/posts/code-features)
 [Test](/posts/test)
+[BSY hacks](/posts/bsy-hacks)
 
 <br><br>
 
